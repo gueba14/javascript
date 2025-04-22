@@ -8,7 +8,7 @@ function mover(){
 
     if(array.length==0){return 0}
     if(k>array.length){
-        k=k-array.length
+        while(k>array.length){k=k-array.length}
     }
         for(let d=0;d<long;d++){
             
